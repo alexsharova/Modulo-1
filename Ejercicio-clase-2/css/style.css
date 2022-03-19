@@ -1,0 +1,28 @@
+/*Selector de id */
+#sub{
+color: blue;
+font-size: 20px;
+}
+/*selector de clase*/
+.paragraph{
+    color: blueviolet;
+    font-size: large;
+}
+/* Selector de etiqueta o selector de elemento */
+h1{
+    color: red;
+    font-size: 15px;
+}
+h2{
+    color: green;
+    font-size: 50px;
+    }
+    
+    .secondary-container{
+        color: blue;
+    }
+/* regla de descendencia*/
+    .secondary-container .MainText{
+        color: aquamarine;
+        font-size: large;
+    }

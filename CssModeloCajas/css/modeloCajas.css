@@ -1,0 +1,12 @@
+.introduccionPagina{
+background-color: black;
+color: #ffffff;
+/*top right bottom left*/
+padding: 10px 0px 0px 20px ;
+}
+.pieIntroduccion{
+    float: up;
+ background-color: black;
+color: #ffffff;
+padding: 50px 0px 0px 0px ;
+}

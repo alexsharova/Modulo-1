@@ -14,5 +14,31 @@ font-weight: bold;
 padding: 50px 0px 0px 0px ;
 }
 .encabezado{
-    padding: 50px 0px 0px 20px;
+    padding: 50px 10px 50px 20px;
+}
+.encabezado .table2{
+    width: 100%;
+}
+.tituloAleman{
+    padding-left: 10px;
+}
+.table3{
+    padding-left: 50%;
+
+}
+.dobar{
+    padding-right: 50%;
+padding-left: 10px;
+    color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.kroz{
+    padding-left: 18%;
+    font-size: 38px ;
+    font-weight: bold;
+}
+.imagenFinal img{
+    width: 100%;
 }

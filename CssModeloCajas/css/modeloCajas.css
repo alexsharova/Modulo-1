@@ -8,5 +8,11 @@ padding: 10px 0px 0px 20px ;
     float: up;
  background-color: black;
 color: #ffffff;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 10px;
+font-weight: bold;
 padding: 50px 0px 0px 0px ;
+}
+.encabezado{
+    padding: 50px 0px 0px 20px;
 }

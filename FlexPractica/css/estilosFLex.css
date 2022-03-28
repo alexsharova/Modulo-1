@@ -1,0 +1,16 @@
+.contenedorPadre{
+    background-color: darkslategray;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.elementoHijo{
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 15px;
+    flex-grow: 1;
+padding: 15px;
+margin: 15px;
+min-width: 120px;
+text-align: center;
+}

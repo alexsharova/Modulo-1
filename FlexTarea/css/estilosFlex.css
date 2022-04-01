@@ -1,6 +1,11 @@
+body{
+    background-color: black;
+}
 .contenedor{
+    vertical-align: middle;
     background: linear-gradient(to right, rgba(255, 0, 89, 0.885), rgb(255, 38, 0));
-    font-family: 'TT Hoves SL',sans-serif;
+    font-family: 'TT Hoves SL',sans-serif;   
+    margin-top: 50px;
 }
 .lineaPrincipal{
     Color: white;
@@ -9,7 +14,7 @@
 }
 .caja{
     flex-grow: 1;
-   padding: 40px;
+   padding: 120px;
   text-align: center;
 }
 .numero{

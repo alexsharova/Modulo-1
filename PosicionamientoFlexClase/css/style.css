@@ -1,0 +1,36 @@
+.displayFlex{
+    display: flex;
+}
+.alingCenter{
+    align-items: center /*important*/;
+}
+.judtifyEvenly{
+    justify-content:space-evenly ;
+}
+.mainContainer{
+    height: 600px;
+    background-color: aliceblue;
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.item{
+    flex-grow: 1;
+    height: 200px;
+    text-align: center;
+    background-color:cornsilk ;
+    border: 1px solid cadetblue;
+}
+@media screen and (min-width:601px) and (max-width: 800px) {
+.item{
+    background-color: darkgray;
+}    
+}
+@media screen and (max-width:600px) {
+    .item{
+        flex-grow: 1;
+        margin-bottom: 20px;
+        background-color: red;
+    }
+} 

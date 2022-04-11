@@ -6,7 +6,6 @@ header, h1, .cajaPrincipal, .cajaInformativa {
   padding: 10px;
   margin: 10px;
   background-color: cyan;
-  font-weight: bold;
 }
 
 body {
@@ -36,5 +35,9 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.cajaInformativa .articulo {
+  font-weight: bold;
 }
 /*# sourceMappingURL=base.css.map */

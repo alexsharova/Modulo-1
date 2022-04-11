@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/base.sass",
+        "../sass/_variables.sass",
+        "../sass/_herencias.sass",
+        "../sass/_mixins.sass",
+        "../sass/_estilosGenerales.sass"
+    ],
+    "names": [],
+    "file": "base.css"
+}

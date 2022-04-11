@@ -1,0 +1,9 @@
+@mixin contenidoFlexible($colorFondo, $colorTexto)
+    background-color: $colorFondo
+    color: $colorTexto
+    display: flex
+//el grow de 1 abarca todo el contenedorindica cuanto va a abarcar un elemento en el contenido de flex box.
+@mixin itemContenido($colorFondo, $colorTexto, $grow)
+    background-color: $colorFondo
+    color: $colorTexto
+    flex-grow: $grow

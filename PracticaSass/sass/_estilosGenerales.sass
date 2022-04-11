@@ -10,6 +10,30 @@
             color: $orange
 
 //herencias
+//La herencia se denomina con el simbolo%, las variables con #
+//NO escribir comentarios en medio de las clases.
+//La herencia permite escribir codigo mas rapido y en menor cantidad.
 .contenedorSecundario
     .titulo
-        @extend titulos
+        @extend %titulos
+        color: $titulosGenerales
+
+.tercerContenedor
+    .titulo
+        @extend %titulos
+        color: $titulosSecundarios
+
+.tarjetasPrimario
+    @include contenidoFlexible(rgb(226, 74, 57),rgb(255, 255, 255))
+    justify-content: center
+    margin-bottom: 50px
+    .item
+        @include itemContenido(rgb(52, 73, 94),rgb(255, 255, 255),0)
+        margin: 20px
+
+.tarjetasSecundario
+    @include contenidoFlexible(rgb(57, 226, 203),rgb(255, 255, 255))
+    margin-bottom: 50px
+    padding: 20px
+    .item
+        @include itemContenido(rgb(180, 192, 20),rgb(44, 62, 80),1)

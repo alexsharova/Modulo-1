@@ -1,0 +1,21 @@
+body
+    margin: 0
+
+header
+    @include tituloPrincipal($colorEncabezado,100px)
+    @extend %tipoLetra
+
+h1
+    @extend %tipoLetra
+    text-align: center
+    color: $colorLetras
+    line-height: 100px
+    margin: 0
+
+.cajaPrincipal
+    @include cajaPrincipal($colorLetras)
+    @extend %tipoLetra
+
+.cajaInformativa
+    @extend %tipoLetra
+    @extend %articulo

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap');
+
+.display-flex {
+  display: flex;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.navigation {
+    width: 100%;
+    background-color: rgb(237, 236, 236); 
+}
+.hamburger{
+    visibility: hidden;
+}
+.navigation a {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;    
+    height: 30px;
+    color: rgb(115, 113, 113);
+    text-decoration: none; 
+}
+.navigation a:hover {
+    border-bottom: #00cdb2 solid 2px;
+}
+.main{
+    background-color: rgb(90, 176, 237);
+    margin: 50px 80px 0px 80px;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(36, 146, 215);
+    flex-grow: 1;
+    height: 450px;
+}
+#more-height{
+    height: 475px;
+}
+#more-height button {
+    margin-top: 10px;
+}
+.price{
+    color:white;
+    background-color: rgb(154, 209, 255);
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+.card-info{
+    line-height: 35px;
+    padding: 20px 0px;
+}
+.button{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(90, 176, 237);
+    color: rgb(90, 176, 237);
+    font-weight: 700;
+    height: 40px;
+    width: 180px;
+}
+/* MEdia queries */
+@media (max-width: 600px) {
+    .navigation a{
+    font-size: 10pt;    
+}
+@media (max-width: 450px){
+    .navigation {flex-wrap: wrap;}
+    .navigation a{font-size: 8pt;}
+}}

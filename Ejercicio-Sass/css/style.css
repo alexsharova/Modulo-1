@@ -1,0 +1,39 @@
+.mixin-container {
+    background-color: rgb(155, 161, 169);
+    padding: 20px 30px;
+    margin: 30px;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgb(116, 125, 140);
+
+}
+
+.main-content h2 {
+    color: rgb(47, 53, 66);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.main-content p {
+    color: rgb(206, 214, 224);
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.content .btn-send {
+    border: none;
+    background-color: rgb(255, 127, 80);
+    padding: 20px 30px;
+    width: 140px;
+    color: rgb(245, 245, 220);
+}
+
+.content .btn-cancel {
+    border: none;
+    background-color: rgb(254, 11, 11);
+    padding: 20px 30px;
+    width: 140px;
+    color: rgb(245, 245, 220);
+}

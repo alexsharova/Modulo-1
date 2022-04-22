@@ -5,6 +5,19 @@ body
   padding: 10% 10%
   background-color: $main-color
 
+.pb-2
+  padding-bottom: 10px
+
+.px-2
+  padding-left: 15px
+  padding-right: 15px
+
+.mt-2
+  margin-top: 20px
+
+.ml-2
+  margin-left: 13px
+
 .item
   background-color: $gray
 
@@ -13,7 +26,53 @@ body
   @extend %general-text
   @extend .general-text
 
-.item h2 
+.item h2
   color: $main-color
   @extend %general-text
   @extend .general-text
+
+.mixin-container
+  background-color: rgb(155, 161, 169)
+  padding: 20px 30px
+  margin: 30px
+
+.content
+  padding: 20px
+  background-color: rgb(116, 125, 140)
+//se convierte a sass usando el mixin
+.main-content h2
+  @include text($dark-gray, Helvetica, 22px)
+
+.main-content p
+  @include text($light-gray, monospace, 16px)
+
+.content .btn-send
+  @include btn($main-color,rgb(245, 245, 220), 140px)
+
+.content .btn-cancel
+  @include btn($danger-color,rgb(245, 245, 220), 140px)
+
+.main-contact-form
+  padding: 20px
+  background: $back-gray
+
+.main-form h1
+  @include text($dark-gray, Helvetica, 30px)
+
+.main-form label
+  @include text($light-gray, monospace, 19px)
+
+.field-container
+  input
+    @extend %input
+
+.d-flex
+  display: flex
+  flex-wrap: wrap
+
+.contact-btn
+  @include btn($black,#fff, 200px)
+
+.input-error
+  border-bottom: 2px solid $danger-color !important
+//el important sobreescribe una regla de especifidad.

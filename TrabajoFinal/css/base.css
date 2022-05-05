@@ -37,4 +37,13 @@ a {
 .custom-toggler.navbar-toggler {
   border-color: #3a567d;
 }
+
+h2 {
+  color: #073256;
+  font-weight: 700;
+}
+
+.rocketMain h2 {
+  font-size: 3em;
+}
 /*# sourceMappingURL=base.css.map */

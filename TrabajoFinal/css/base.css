@@ -46,4 +46,31 @@ h2 {
 .rocketMain h2 {
   font-size: 3em;
 }
+
+.textoLema {
+  color: #afc3d3;
+}
+
+.btn {
+  padding: .35em 1.75em;
+  border-radius: 30px;
+}
+
+.btn-primary {
+  background-color: #afc3d3;
+  border-color: #afc3d3;
+}
+
+.btn-secondary {
+  background-color: #073256;
+  border-color: #073256;
+}
+
+.rocketMain img {
+  max-height: 50vh;
+}
+
+.fondoGrisClaro {
+  background-color: rgba(58, 86, 125, 0.1);
+}
 /*# sourceMappingURL=base.css.map */

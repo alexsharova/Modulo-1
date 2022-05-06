@@ -38,7 +38,17 @@ a {
   border-color: #3a567d;
 }
 
+h1 {
+  color: #073256;
+  font-weight: 700;
+}
+
 h2 {
+  color: #073256;
+  font-weight: 700;
+}
+
+h3 {
   color: #073256;
   font-weight: 700;
 }
@@ -72,5 +82,19 @@ h2 {
 
 .fondoGrisClaro {
   background-color: rgba(58, 86, 125, 0.1);
+}
+
+.servicios img {
+  max-height: 80px;
+  margin-bottom: 1.5em;
+}
+
+.btn-third {
+  background-color: #afc3d3;
+  border-color: #afc3d3;
+}
+
+.negocio {
+  border-right: 1px solid rgba(58, 86, 125, 0.4);
 }
 /*# sourceMappingURL=base.css.map */

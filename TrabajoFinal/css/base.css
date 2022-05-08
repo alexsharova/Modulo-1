@@ -97,4 +97,40 @@ h3 {
 .negocio {
   border-right: 1px solid rgba(58, 86, 125, 0.4);
 }
+
+.texto {
+  position: relative;
+  padding: 1em 9em;
+}
+
+small {
+  display: block;
+  width: 100%;
+  margin-top: 1.5em;
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.lineaA {
+  border-top: 1px solid;
+  border-color: #3a567d !important;
+}
+
+.pie {
+  background-color: #f8f9fa;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer h2 {
+  font-size: 1.65em;
+  margin-bottom: 1em;
+}
+
+footer h3 {
+  font-size: 1.3em;
+}
 /*# sourceMappingURL=base.css.map */

@@ -120,7 +120,7 @@ small {
   background-color: #f8f9fa;
 }
 
-footer ul {
+.contacto, footer ul {
   list-style: none;
   padding-left: 0;
 }

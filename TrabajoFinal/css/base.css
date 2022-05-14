@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  font-family: nimbus-sans,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
 a {
   color: #3a567d;
   text-decoration: none;
@@ -241,5 +252,25 @@ footer h3 {
 
 .fadeIn-bottom {
   top: 80%;
+}
+
+.carousel-inner .carousel-item blockquote::before {
+  content: "\201C";
+  left: 0;
+  top: 0;
+}
+
+.carousel-inner .carousel-item blockquote:after {
+  content: "\201D";
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-inner .carousel-item blockquote:after, .carousel-inner .carousel-item blockquote:before {
+  position: absolute;
+  display: inline-block;
+  font-size: 10em;
+  opacity: .2;
+  line-height: .7;
 }
 /*# sourceMappingURL=base.css.map */

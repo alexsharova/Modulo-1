@@ -315,4 +315,77 @@ footer h3 {
             transform: rotate(360deg);
   }
 }
+
+.puppetOut {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 30%;
+  max-width: 200px;
+  right: -200px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: right .45s ease-out;
+  transition: right .45s ease-out;
+  z-index: 30;
+}
+
+.puppetOut.show {
+  right: 0;
+}
+
+.puppetOut .bob,
+.puppetOut .guardaMensaje {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.puppetOut .bob,
+.puppetOut .guardaMensaje {
+  position: relative;
+}
+
+.puppetOut .bob .mensajePop,
+.puppetOut .guardaMensaje .mensajePop {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+  top: 0;
+  left: 0;
+}
+
+.puppetOut .bob .mensajePop p,
+.puppetOut .guardaMensaje .mensajePop p {
+  color: white;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .puppetOut {
+    max-width: 90px;
+  }
+  .guardaMensaje .mensajePop p {
+    font-size: .9em;
+  }
+}
 /*# sourceMappingURL=base.css.map */

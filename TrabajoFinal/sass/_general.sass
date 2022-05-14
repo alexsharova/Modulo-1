@@ -216,3 +216,31 @@ footer h3
     font-size: 10em
     opacity: .2
     line-height: .7
+
+.contenido
+    display: none
+
+.cargador
+    height: 100vh
+    width: 100vw
+    overflow: hidden
+    background-color: rgb(216, 225, 242)
+    position: absolute
+
+.cargador > div
+    height: 100px
+    width: 100px
+    border: 15px solid rgb(58, 86, 125)
+    border-top-color: rgb(161, 188, 210)
+    position: absolute
+    margin: auto
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    border-radius: 50%
+    animation: spin 1.5s infinite linear
+
+@keyframes spin
+    100%
+        transform: rotate(360deg)
